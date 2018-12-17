@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.etu.coursework"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "monolith",
+    "baseName": "coursework",
+    "packageName": "com.etu.coursework",
+    "packageFolder": "com/etu/coursework",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YTk5MzRmZTllOWM2MTVmMGE0MzVkYzk4NjA0N2VjODM4ODkzMTVlMWM4ZmRmYTczOWRlNzIyODlmZTMxOTYxODIzNjI3MTczODk5Y2JjMDRlMDA3NmI4YWE2NTFmODhlMTY2ZmMyN2E2NDg0ZTA5NmIwZmMxZWMxZGYxOTBiNmI=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
