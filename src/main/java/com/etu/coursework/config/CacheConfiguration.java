@@ -38,6 +38,16 @@ public class CacheConfiguration {
             cm.createCache(com.etu.coursework.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(com.etu.coursework.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.etu.coursework.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(com.etu.coursework.domain.Category.class.getName(), jcacheConfiguration);
+            cm.createCache(com.etu.coursework.domain.Category.class.getName() + ".products", jcacheConfiguration);
+            cm.createCache(com.etu.coursework.domain.Product.class.getName(), jcacheConfiguration);
+            cm.createCache(com.etu.coursework.domain.Product.class.getName() + ".categories", jcacheConfiguration);
+            cm.createCache(com.etu.coursework.domain.Customer.class.getName(), jcacheConfiguration);
+            cm.createCache(com.etu.coursework.domain.Customer.class.getName() + ".wishLists", jcacheConfiguration);
+            cm.createCache(com.etu.coursework.domain.Customer.class.getName() + ".addresses", jcacheConfiguration);
+            cm.createCache(com.etu.coursework.domain.Address.class.getName(), jcacheConfiguration);
+            cm.createCache(com.etu.coursework.domain.WishList.class.getName(), jcacheConfiguration);
+            cm.createCache(com.etu.coursework.domain.WishList.class.getName() + ".products", jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
